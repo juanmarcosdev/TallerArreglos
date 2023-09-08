@@ -41,7 +41,7 @@ public class Main{
 					int units = reader.nextInt();
 					
 					
-					tienda.addProductName(name);
+					tienda.addProductName("Papaya");
 					tienda.addProductPrice(price);
 					tienda.addProductUnits(units);
 				break;
