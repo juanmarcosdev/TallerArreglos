@@ -33,7 +33,7 @@ public class Main{
 					String name = reader.nextLine();
 					
 					System.out.println("Please enter the price of the product");
-					double price = reader.nextDouble();
+					double price = Double.parseDouble(reader.nextLine());
 					
 					System.out.println("Please enter the amount in the store for this product");
 					int units = reader.nextInt();
