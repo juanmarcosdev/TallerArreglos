@@ -5,8 +5,8 @@ import model.Tienda;
 
 public class Main{
 	
-	Scanner reader;
-	Tienda tienda; 
+	static Scanner reader;
+	static Tienda tienda; 
 	
 	public static void main(String[] args){
 		reader = new Scanner(System.in);
