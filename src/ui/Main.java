@@ -26,13 +26,13 @@ public class Main{
 								+ "7.End");
 								
 			int option = reader.nextInt();
-
-			reader.nextLine();
 			
 			switch(option){
 				case 1:
 					System.out.println("Please enter the name of the product");
 					String name = reader.nextLine();
+
+					reader.nextLine();
 					
 					System.out.println("Please enter the price of the product");
 					double price = reader.nextDouble();
