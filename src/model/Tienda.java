@@ -11,7 +11,7 @@ public class Tienda{
 		prices = new double[10];
 		units = new int[10];
 
-	// Inicializar los elementos de las matrices
+	    // Inicializar los elementos de las matrices
 	    for (int i = 0; i < 10; i++) {
 	        names[i] = "";  // Inicializar con cadenas vacías
 	        prices[i] = 0.0;  // Inicializar con 0.0
