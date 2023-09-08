@@ -34,11 +34,11 @@ public class Tienda{
 		}
 	}
 	
-	public void addProductUnits(int units){
+	public void addProductUnits(int unit){
 		boolean flag = false;
 		for(int i=0; i<units.length && flag == false; i++){
 			if(units[i] == 0){
-				units[i] = units;
+				units[i] = unit;
 				flag = true;
 			}
 		}
