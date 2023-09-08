@@ -31,8 +31,6 @@ public class Main{
 				case 1:
 					System.out.println("Please enter the name of the product");
 					String name = reader.nextLine();
-
-					reader.nextLine();
 					
 					System.out.println("Please enter the price of the product");
 					double price = reader.nextDouble();
