@@ -26,6 +26,8 @@ public class Main{
 								+ "7.End");
 								
 			int option = reader.nextInt();
+
+			reader.nextLine();
 			
 			switch(option){
 				case 1:
@@ -33,7 +35,7 @@ public class Main{
 					String name = reader.nextLine();
 					
 					System.out.println("Please enter the price of the product");
-					double price = Double.parseDouble(reader.nextLine());
+					double price = reader.nextDouble();
 					
 					System.out.println("Please enter the amount in the store for this product");
 					int units = reader.nextInt();
