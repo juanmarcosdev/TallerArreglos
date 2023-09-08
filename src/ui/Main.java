@@ -19,7 +19,7 @@ public class Main{
 		boolean flag = false;
 		
 		while(!flag){
-			System.out.println("Welcome to the store:\n")
+			System.out.println("Welcome to the store:\n");
 			System.out.println("Options:\n" + "1.Add products\n" + "2.See product\n"
 								+ "3.Show all products\n" + "4. Return expensiest product\n"
 								+ "5.Return cheapest product\n" + "6.Delete product\n"
